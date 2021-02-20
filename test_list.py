@@ -1,5 +1,9 @@
 import unittest
 
+def delete_element(list1):
+    list1.remove(list1[-4])
+    return list1
+
 
 class TestListMethods(unittest.TestCase):
 
