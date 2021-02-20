@@ -4,6 +4,9 @@ import unittest
 def delete_element(list1):
     list1.remove(list1[-4])
     return list1
+def rem_last_element(list):
+    list.remove(list[-1])
+    return list
 
 
 class TestListMethods(unittest.TestCase):
@@ -15,6 +18,10 @@ class TestListMethods(unittest.TestCase):
 
     def test_roman_tkalenko_2(self):
         self.assertEqual(2, 2)
+
+    def test_Yegor_Panasuk_FI94(self):
+        list = [1, 2, 3, 4, 5, 6]
+        self.assertEqual(rem_last_element(list), [1, 2, 3, 4, 5])
 
     def test_michael_medved_fi93(self):
         self.assertEqual(len([] + ['f']), len('f'))
