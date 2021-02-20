@@ -37,7 +37,7 @@ class TestListMethods(unittest.TestCase):
     def test_andrii_kutsenko_fi_94(self):
         list1 = [4, 5, 7, 3, 8, 6, 3, 9]
         self.assertEqual(delete_element(list1), [4, 5, 7, 3, 6, 3, 9])
-    
+
     def test_1_olia_futurska_fi94(self):
         listo1 = [1, 2, 3, 4, 5, 6, 7]
         listo2 = [1, 2, 3, 4, 6, 6, 7]
