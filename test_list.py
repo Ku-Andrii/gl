@@ -4,6 +4,8 @@ import unittest
 def delete_element(list1):
     list1.remove(list1[-4])
     return list1
+
+
 def rem_last_element(list):
     list.remove(list[-1])
     return list
